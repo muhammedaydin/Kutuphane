@@ -1,0 +1,39 @@
+html,
+body,
+#cover
+{
+    height: 100%;
+}
+
+#cover {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+
+    background-size: cover;
+}
+
+.navbar{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 50px;  
+}
+
+
+.btn-outline-success{
+    background-color:#14922f;
+    color: white;
+    border-color: black;
+    border-style: dotted ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn-outline-success:hover{
+    background-color:rgb(33, 119, 52); 
+}
+.test-h1{
+    text-align: center;
+    color: white!important;
+    margin-top: 20%;
+}
+
+    

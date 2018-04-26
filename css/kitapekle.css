@@ -11,18 +11,19 @@ body
 
     
 }
-
 .text-center{
     text-align: center;
     color: white!important;
-     
 }
 .border-success {
-    
     background-color: goldenrod;
     width: 250px;
-    height: 200px;
-    
-    
-  
-  }
+    height: 200px;  
+}
+.kitapEkleDiv {
+    margin-top:20px;
+}
+.kitapEkleInput {
+    background-color:white;
+    width:300px!important;
+}

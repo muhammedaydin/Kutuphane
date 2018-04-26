@@ -39,7 +39,7 @@
                   </div>
                   <div class="input-group mb-3">
                       <div class="input-group-prepend">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kitap Türü</button>
+                        <button id="genreButton" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kitap Türü</button>
                         <div id="genre" class="dropdown-menu">
                           <a class="dropdown-item" href="#">Test</a>                          
                         </div>
@@ -83,20 +83,5 @@
               <script src="js/bootstrap.min.js"></script>
               <script src="js/main.js"></script>
               <script src="js/add.book.js"></script>
-              <script>  
-                $(document).ready(function(){
-                 
-                  
-                 var i=1;
-                  $(".ekle").click(function(){
-                    
-                    
-                     $(".ekledeneme").before("<div style='margin-top:20px;'><input style='background-color:white  ;width:300px!important;' class= 'form-control' placeholder='"+i+""+'.Kitabı Ekle+'+"' type='text'> <a href='#'> <button class='ekle btn btn-outline-success my-2 my-sm-0 ' type='button'> Kitaplara Ekle+  </button> </a> </div>");
-                    i++;
-                  });
-                  
-                });
-                
-              </script> 
   </body>
 </html>

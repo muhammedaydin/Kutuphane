@@ -1,110 +1,60 @@
+
+
 <!doctype html>
 <html lang="en">
-  <head>
-   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" /> 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/kitapekle.css"/>
-
- <title>Kitap Kayıt Sayfası</title>
- </head>
-
-
-  <body>
-
-    <div class="container">
-    <h1 class="text-center" >  KİTAP KAYIT SAYFASI   </h1>
-
-
-        <div class="row">  
-              <nav class="navbar">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/kitapekle.css"/>
+        <title>Kitap Kayıt Sayfası</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center" >  KİTAP KAYIT SAYFASI   </h1>
+            <div class="row">
+                <nav class="navbar">
                     <form class="form-inline ">
-   
                         <input  class="deneme form-control mr-sm-1 " type="search" placeholder="Kitap Adı Giriniz" aria-label="Search"> 
-                  </form>
-          </nav>
-      </div>
-               <div class="  justify-content-end"> 
-                      <div class="row">   
-                          
-                        <nav class="navbar">
-                              <form class="form-inline ">    
-                                  <input  class=" deneme form-control mr-sm-6" type="search" placeholder="Seri Numarası Giriniz" aria-label="Search"><br>
-                               </form>
-                       </nav> 
-                   </div>
-                  </div>
-                  <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        
-                        <select style="width: 175.5px;" id="renk" class="form-control">
-                          <option>Hikaye</option>
-                          <option>Masal</option>
-                          <option>Roman</option>
-                          <option>Şiir</option>
-                          <option>Macera</option>
-                          <option>Korku</option>
-                          <option>Dini</option>
-                          <option>Araştırma</option>
-                       </select>
-                    
-                      </div>
-                      
-                        </div>
-                              
-                        <a href="#"> <button class="ekle btn btn-outline-success my-2 my-sm-0 " type="button"> Kitap Ekle +  </button> </a>
-                       
-                        
-           
-                      <!-- 
-                        
-                        Eklenen Kitapların Bulunduğu border
+                    </form>
+                </nav>
+            </div>
+            <div class="  justify-content-end">
+                <div class="row">
+                    <nav class="navbar">
+                        <form class="form-inline ">    
+                            <input  class=" deneme form-control mr-sm-6" type="search" placeholder="Seri Numarası Giriniz" aria-label="Search"><br>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <select style="width: 175.5px;" id="renk" class="form-control">
+                        <option>Hikaye</option>
+                        <option>Masal</option>
+                        <option>Roman</option>
+                        <option>Şiir</option>
+                        <option>Macera</option>
+                        <option>Korku</option>
+                        <option>Dini</option>
+                        <option>Araştırma</option>
+                    </select>
+                </div>
+            </div>
+            <a href="#"> <button class="ekle btn btn-outline-success my-2 my-sm-0 " type="button"> Kitap Ekle +  </button> </a>
 
-                        <div class="row">
-                  
-                            <div class="col-sm-12"> 
-                                <ul class="nav justify-content-end">
-                              
-                                <span class="border border-success">   <h3  > Kitap Kutusu </h3>   </span> 
-                              </ul>
-                              </div>
-        
-                         </div> 
-                        -->
-
-                     <p class="ekledeneme"> </p> 
-                        <ul class="nav justify-content-center">
-                          
-                            <a href="index.html"> <button class="btn btn-outline-success  my-2 my-sm-0 " type="button">  Anasayfa </button> </a>
-                          </ul>
-
-
-
-                           
-</div>
-
-              <script src="js/jquery-3.3.3.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-              <script src="js/bootstrap.min.js"></script>
-              <script src="js/main.js"></script>
-              <script src="js/add.book.js"></script>
-              <script>  
-                $(document).ready(function(){
-                 
-                  
-                 var i=1;
-                  $(".ekle").click(function(){
-                    
-                    
-                     $(".ekledeneme").before("<div style='margin-top:20px;'><input style='background-color:white  ;width:300px!important;' class= 'form-control' placeholder='"+i+""+'.Kitabı Ekle+'+"' type='text'> <a href='#'> <button class='ekle btn btn-outline-success my-2 my-sm-0 ' type='button'> Kitaplara Ekle+  </button> </a> </div>");
-                    i++;
-                  });
-                  
-                });
-                
-              </script> 
-  </body>
+            <p class="ekledeneme"> </p>
+            <ul class="nav justify-content-center">
+                <a href="index.html"> <button class="btn btn-outline-success  my-2 my-sm-0 " type="button">  Anasayfa </button> </a>
+            </ul>
+        </div>
+        <script src="js/jquery-3.3.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/add.book.js"></script>
+    </body>
 </html>
+

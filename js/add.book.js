@@ -8,4 +8,10 @@ $(document).ready(function() {
 			});
 		}
 	});
+
+	var i=1;
+	$(".ekle").click(function() {
+		$(".ekledeneme").before("<div style='margin-top:20px;'><input style='background-color:white  ;width:300px!important;' class= 'form-control' placeholder='"+i+""+'.Kitabı Ekle+'+"' type='text'> <a href='#'> <button class='ekle btn btn-outline-success my-2 my-sm-0 ' type='button'> Kitaplara Ekle+  </button> </a> </div>");
+		i++;
+	});
 });
